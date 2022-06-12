@@ -11,11 +11,11 @@ body {
 
 .container {
     margin: 0 25%;
-    padding: 25px 30px;
     background-color: #EFEFEF;
 }
 
 .header {
+    padding: 25px 30px;
     display: flex;
 }
 
@@ -64,6 +64,38 @@ body {
 .header .second .right-container .row {
     font-size: 14px;
     font-family: "Courier 10 Pitch";
+    color: #3c3c3c;
+}
+
+.divider {
+    height: 3px;
+    background-color: #e6a500;
+}
+
+.personal-profile {
+    padding: 25px 30px;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    column-gap: 5%;
+}
+
+.personal-profile .fist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-profile .fist .topic {
+    color: #c8a500;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.personal-profile .second {
+    font-family: Arial;
+    line-height: 1.5;
     color: #3c3c3c;
 }
 
