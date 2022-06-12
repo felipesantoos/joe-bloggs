@@ -1,0 +1,36 @@
+body {
+    background-color: red;
+}
+
+.header {
+    display: flex;
+}
+
+.header .first {
+    background-color: blue;
+    width: 50%;
+    display: flex;
+    justify-context: center;
+    align-items: center;
+}
+
+.header .first .profile-img {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.header .first .profile-txt-group {
+
+}
+
+.header .second {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: green;
+}
+
+.header .second .row {
+
+}
