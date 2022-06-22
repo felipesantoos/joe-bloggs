@@ -79,13 +79,13 @@ body {
     column-gap: 5%;
 }
 
-.personal-profile .fist {
+.personal-profile .first {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.personal-profile .fist .topic {
+.personal-profile .first .topic {
     color: #c8a500;
     font-weight: bold;
     font-style: italic;
@@ -97,5 +97,35 @@ body {
     font-family: Arial;
     line-height: 1.5;
     color: #3c3c3c;
+}
+
+.work-experience {
+    padding: 25px 30px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 5%;
+}
+
+.work-experience .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-experience .first .topic {
+    color: #c8a500;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.work-experience .second {
+    font-family: Arial;
+    line-height: 1.5;
+    color: #3c3c3c;
+}
+
+.horizontal-line {
+    /* ... */
 }
 
